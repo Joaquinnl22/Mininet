@@ -6,10 +6,10 @@ git clone https://aur.archlinux.org/mininet.git ~/mininet
 cd ~/mininet
 makepkg -si
 
-#Instalar xorg
+# Instalar xorg
 pacman -S xorg-xhost
 
-#Instalar OpenvSwitch
+# Instalar OpenvSwitch
 pacman -S openvswitch
 
 # Usar Mininet
@@ -19,7 +19,7 @@ systemctl start ovsdb-server
 
 sudo mn
 
-#Example 
+# Example 
 
 h1 ping -c 4 h2
 
