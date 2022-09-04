@@ -23,3 +23,6 @@ sudo mn
 
 h1 ping -c 4 h2
 
+# Wireshark
+
+Capturing from s1-eth1
