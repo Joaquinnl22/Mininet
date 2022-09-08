@@ -26,3 +26,7 @@ h1 ping -c 4 h2
 # Wireshark
 
 Capturing from s1-eth1
+
+#Referencias
+https://mailman.stanford.edu/pipermail/mininet-discuss/2014-February/004030.html
+https://hackmd.io/@pmanzoni/BklqpKddS
