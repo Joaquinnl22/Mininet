@@ -28,12 +28,12 @@ def emptyNet():
 
     info( '*** Creating links\n' )
     net.addLink( s2, s1 )
-    net.addLink( s2, s3, bw=10, delay='15ms', use_htb=True )
+    net.addLink( s2, s3, bw=10, delay='15ms' )
     net.addLink( s1, h1 )
     net.addLink( s1, h2 )
     net.addLink( s3, h3 )
     net.addLink( s4, h4 )
-    net.addLink( s3, s4, bw=10, delay='30ms', loss=10, use_htb=True )
+    net.addLink( s3, s4, bw=10, delay='30ms', loss=10 )
     
     
     
