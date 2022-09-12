@@ -7,7 +7,7 @@ from mininet.link import TCLink
 
 def emptyNet():
 
-    "Creacion de la net
+    "Creacion de la net"
 
     net = Mininet( controller=Controller,link = TCLink )
 
